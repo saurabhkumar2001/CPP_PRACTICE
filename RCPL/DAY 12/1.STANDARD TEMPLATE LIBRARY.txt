@@ -1,0 +1,48 @@
+							STANDARD TEMPLATE LIBRARY
+
+💖THE STANDARD TEMPLATE LIBRARY IS A SET OF TEMPLATE CLASSES TO PROVIDE COMMON PROGRAMMING DATA STRUCTURES AND FUCTIONS SUCH AS LISTS STACK ARRAYS
+CONTAINER,ALGORITHMS ,ITERATORS
+
+CONTAINERS: THE STL PROVIDES A RANGE OF CONTAINERS SUCH AS VECTOR,LIST ,MAP ,SET AND STACK WHICH CAN BE USED TO STROE AND MANIPULATE DATA.
+ALGORITHM: THE STL PROVIDES A RANGE OF ALGORTIHM SUCH AS SORT, FIND AND BINARY_SEARCH WHICH CAN BE USED TO MANIPULATE DATA STORED IN CONTAINER.
+ITERATORS: ITERATORS ARE OBJECT THAT PROVIDES A WAY TO TRAVERSE THE ELEMENT OF A CONTAINER.
+
+⭐containers:
+container or container classes store object and data there are in total seven standards "first class" container classes and three   container adaptor classses and only seven header files that provides access to these containers or container adaptors
+
+⭐sequence container: implement data structures that can be accessed in a sequantial manner:- 
+ Array
+ List
+ Vector
+ Deque
+
+⭐container Adaptor: provdies a different interface for sequential containers,
+ queue
+ stack
+ priroity_queue
+
+⭐Associative container implement stored data structures that can be quickly searched
+ set
+ multiset
+ map
+ multimap
+⭐iteratrors are used for working on a sequence of values
+
+
+ALGORITHMS:-
+the header algorithm defines a collection of functions specially designed to be used on a range of element they act on container and provide means for various operation for the contentes of the containers
+sorting 
+searching
+reverse
+
+size()
+begin()
+end()
+sort()
+reverse()
+max_element()
+min_element()
+count()
+find()
+remove()
+

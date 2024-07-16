@@ -1,0 +1,23 @@
+to the get acess to those it is required to make some modifications to the capture lost of expresion 
+syntax:
+
+[capture list](parameter)
+{
+    statement ---1;
+    statement ---2;
+}
+
+int main(){
+    void (*fptr)()=[]{}(cout<<"lambda expresion";3);
+    fptr();
+    return
+}
+
+while writing a lambda expresion , by default there will be no acess to the variable within which the expresion is written 
+
+so to get acess to those variable then is a need to make the following changes in the capture list of the lambda expression
+[]:capture nothing
+[=]:capture everything by value , it gives only read acess
+[&]: capture everything by reference . it gives both read and write acess 
+[=,&x] : capture everything by value , and x var by reference
+[=x,&] : capture everything by refernce and x by value 

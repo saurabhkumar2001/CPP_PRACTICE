@@ -1,0 +1,18 @@
+front() to get the first element 
+back()  to get the last element 
+push_front()  to push the element in the starting
+push_back()  to push the element in the last
+pop_front()  to pop the element from the front
+pop_back()   to pop the element from the back
+insert()   to inset the element at the given index
+erase()  to erase the element at the given index
+clear()  to remove all the element from the list to clear all the element
+swap()   to swap out the element 
+remove()  
+sort()
+reverse()
+begin()
+end()
+empty()   
+size()
+splice()   to merge the two list in one.

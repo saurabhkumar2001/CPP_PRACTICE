@@ -1,0 +1,5 @@
+a file can be understand as a named location in computer 's secoundary memory which is used to store related data a file is used to store our information permanently in computer's secoundary memory
+file handling is a way to manage and maintain fields with the help of file handling we can get user input after the program is unloaded from the memory even. because with the file we can persist user input in to a disk file.
+handling these files with c++ code is termed as the handling with c++
+for this purpose it provides set of built in function which can be used perform different operation on file
+1. fstream header file;

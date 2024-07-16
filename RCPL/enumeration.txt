@@ -1,0 +1,1 @@
+Enumeration (enum) is a user defined datatype (same as structure).it consist of various elements of that type . There is no such specific use of enum we use it just to make our code neat and more readable we can write C programs without using enum also.
